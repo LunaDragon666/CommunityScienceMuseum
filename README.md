@@ -1,1 +1,1 @@
-# CSM
+# Community Science Museum
