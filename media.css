@@ -1,0 +1,21 @@
+/* Media Queries for mobile phones */
+@media (min-width: 360px) and (max-width: 480px) {
+  .home_header {
+    width: 300px;
+  }
+  h1 {
+    color: greenyellow;
+  }
+}
+/* Media Queries for tablets */
+@media (min-width: 640px) and (max-width: 768px) {
+  .home_header {
+    width: 600px;
+  }
+}
+/* Media Queries for smaller laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home_header {
+    width: 700px;
+  }
+}
