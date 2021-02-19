@@ -60,6 +60,10 @@ i.fas.fa-bars {
   display: block;
 }
 
+footer {
+  background-color: #001cd4;
+}
+
 .footer_content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
