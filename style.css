@@ -17,7 +17,7 @@ h1 {
   grid-gap: 10px;
 }
 
-.event-image,
+.event-image img,
 .exhibit_theme img {
   width: 100%;
   height: auto;
