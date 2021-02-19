@@ -19,6 +19,7 @@ h1 {
 .topnav-bar {
   background: #ffffff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  height: 75px;
 }
 
 .header_text {
@@ -54,7 +55,8 @@ hr {
 }
 
 .CSMlogo {
-  width: 15%;
+  width: 60%;
+  padding: 10px 20px;
 }
 
 nav {
