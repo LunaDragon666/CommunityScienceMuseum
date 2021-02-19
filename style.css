@@ -22,3 +22,14 @@ h1 {
   width: 100%;
   height: auto;
 }
+
+hr {
+  border-top: 2.5px solid blue;
+}
+
+.headpage {
+  background: url("images/header.jpg") center bottom no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
