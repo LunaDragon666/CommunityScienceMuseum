@@ -13,6 +13,7 @@ h1 {
 .events_gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
 .event-image img {
