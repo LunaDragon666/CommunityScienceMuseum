@@ -10,6 +10,10 @@
   .headpage {
     min-height: auto;
   }
+  .footer_content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 /* Media Queries for tablets and smaller laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
