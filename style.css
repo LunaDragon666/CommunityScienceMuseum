@@ -86,7 +86,7 @@ nav li {
 i.fas.fa-bars {
   float: right;
   color: #2a1540;
-  padding: 10px;
+  padding: 17px;
   font-size: 1.5em;
   display: block;
 }
@@ -98,4 +98,8 @@ footer {
 .footer_content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.exhibit_theme {
+  margin: 0 auto;
 }
