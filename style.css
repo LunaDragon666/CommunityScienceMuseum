@@ -33,3 +33,7 @@ hr {
   min-height: 100vh;
   position: relative;
 }
+
+.csmlogo {
+  width: 15%;
+}
