@@ -42,14 +42,6 @@ hr {
   display: none;
 }
 
-ul {
-  display: flex;
-}
-
-li {
-  display: inline-block;
-}
-
 i.fas.fa-bars {
   float: right;
   color: pink;
