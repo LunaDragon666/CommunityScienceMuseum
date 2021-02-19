@@ -1,5 +1,5 @@
 /* Media Queries for mobile phones */
-@media (min-width: 360px) and (max-width: 639px) {
+@media (min-width: 360px) and (max-width: 768px) {
   .events_gallery {
     grid-template-columns: 1fr;
   }
@@ -7,16 +7,7 @@
     font-size: 4em;
   }
 }
-/* Media Queries for tablets */
-@media (min-width: 640px) and (max-width: 768px) {
-  h1 {
-    color: red;
-  }
-  .events_gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-/* Media Queries for smaller laptops */
+/* Media Queries for tablets and smaller laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
   h1 {
     color: blue;
