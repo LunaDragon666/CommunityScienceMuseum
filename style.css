@@ -10,10 +10,16 @@ h1 {
   font-size: 2rem;
 }
 
-.events_gallery {
+.event-image img {
+  width: 450px;
+  height: 350px;
+}
+
+.event-image {
+  margin: 0px 25px;
+}
+
+.event_gallery {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  max-width: 1100px;
-  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
 }
