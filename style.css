@@ -1,9 +1,8 @@
 html,
 body {
-  margin: 0 auto;
-}
-
-body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
   font-family: montserrat, sans-serif;
   font-weight: 400;
 }
@@ -57,8 +56,31 @@ hr {
   width: 15%;
 }
 
+nav {
+  margin-left: 25px;
+  display: none;
+  position: fixed;
+  top: 45px;
+  background: #202020;
+  z-index: 1000;
+  right: 0px;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
 #hamburger-menu {
   display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
 
 i.fas.fa-bars {
