@@ -12,6 +12,9 @@
   h1 {
     color: red;
   }
+  .events_gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /* Media Queries for smaller laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
