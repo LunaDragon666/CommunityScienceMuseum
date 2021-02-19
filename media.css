@@ -1,11 +1,5 @@
 /* Media Queries for mobile phones */
-@media (min-width: 360px) and (max-width: 480px) {
-  .home_header {
-    width: 300px;
-  }
-  h1 {
-    color: greenyellow;
-  }
+@media (min-width: 360px) and (max-width: 639px) {
   .events_gallery {
     grid-template-columns: 1fr;
   }
