@@ -37,3 +37,23 @@ hr {
 .CSMlogo {
   width: 15%;
 }
+
+#hamburger-menu {
+  display: none;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  display: inline-block;
+}
+
+.hamburger-label {
+  float: right;
+  color: pink;
+  padding: 10px;
+  font-size: 1.5em;
+  display: block;
+}
