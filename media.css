@@ -3,6 +3,9 @@
   .events_gallery {
     grid-template-columns: 1fr;
   }
+  h1 {
+    font-size: 4em;
+  }
 }
 /* Media Queries for tablets */
 @media (min-width: 640px) and (max-width: 768px) {
