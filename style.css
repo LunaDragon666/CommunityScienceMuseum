@@ -10,16 +10,12 @@ h1 {
   font-size: 2rem;
 }
 
-.event-image img {
-  width: 100%;
-  height: auto;
-}
-
-.event-image {
-  margin: 0px 25px;
-}
-
 .events_gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.event-image img {
+  width: 100%;
+  height: auto;
 }
