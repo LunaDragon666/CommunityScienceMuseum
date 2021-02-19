@@ -1,3 +1,8 @@
+html,
+body {
+  margin: 0 auto;
+}
+
 body {
   font-family: montserrat, sans-serif;
   font-weight: 400;
@@ -6,6 +11,11 @@ body {
 h1 {
   font-size: 4rem;
 }
+
+.topnav-bar {
+  background: #ffffff;
+}
+
 .header_text {
   font-size: 2rem;
 }
@@ -44,7 +54,7 @@ hr {
 
 i.fas.fa-bars {
   float: right;
-  color: pink;
+  color: #2a1540;
   padding: 10px;
   font-size: 1.5em;
   display: block;
