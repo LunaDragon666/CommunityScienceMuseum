@@ -11,8 +11,8 @@ h1 {
 }
 
 .event-image img {
-  width: 450px;
-  height: 350px;
+  width: 100%;
+  height: auto;
 }
 
 .event-image {
