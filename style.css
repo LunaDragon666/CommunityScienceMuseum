@@ -3,10 +3,6 @@ body {
   font-weight: 400;
 }
 
-h1 {
-  color: blue;
-}
-
-.home_header {
-  width: 1000px;
+img {
+  width: 100%;
 }
