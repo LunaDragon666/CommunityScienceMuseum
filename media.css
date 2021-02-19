@@ -1,6 +1,7 @@
 /* Media Queries for mobile phones */
 @media (min-width: 360px) and (max-width: 768px) {
-  .events_gallery {
+  .events_gallery,
+  .exhibit_gallery {
     grid-template-columns: 1fr;
   }
   h1 {
