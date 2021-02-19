@@ -19,7 +19,7 @@ h1 {
   margin: 0px 25px;
 }
 
-.event_gallery {
+.events_gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
