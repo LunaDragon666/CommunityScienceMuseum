@@ -121,6 +121,10 @@ footer {
   grid-gap: 10px;
 }
 
+.blogpage {
+  margin-bottom: 25px;
+}
+
 /* Subheading decor */
 .subheading {
   color: white;
