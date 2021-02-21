@@ -121,6 +121,26 @@ footer {
   grid-gap: 10px;
 }
 
+/* Subheading decor */
+.subheading {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5em;
+  letter-spacing: 2.5px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding: 15px 50px;
+  background-color: #001cd4;
+}
+
+.section-heading--arrow {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #001cd4;
+  position: absolute;
+  margin-top: -25px;
+}
+
 /* Blog post layout (card grid) */
 .grid > article {
   background: #eee5e9;
