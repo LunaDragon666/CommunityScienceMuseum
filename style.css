@@ -114,3 +114,18 @@ footer {
 .exhibit_theme img {
   border-radius: 10px 10px 0px 0px;
 }
+
+article.event-image {
+  margin: 10px 0px 0px 10px;
+}
+
+.postbox {
+  text-align: center;
+  background: blue;
+  padding: 30px 0;
+  margin: -5px 0px;
+}
+
+.post_heading {
+  margin: 5px 0;
+}
