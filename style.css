@@ -129,3 +129,7 @@ article.event-image {
 .post_heading {
   margin: 5px 0;
 }
+
+time.post-date {
+  font-size: 0.8em;
+}
