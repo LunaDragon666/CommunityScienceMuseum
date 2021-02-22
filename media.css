@@ -12,7 +12,8 @@
   .footer_content {
     display: grid;
   }
-  .grid {
+  .grid,
+  .casestudies {
     grid-template-columns: 1fr;
   }
 }
