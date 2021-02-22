@@ -52,7 +52,7 @@ a {
   font-weight: bold;
   letter-spacing: 0.1em;
   display: block;
-  padding: 15px 15px;
+  padding: 20px 20px;
   color: #2a1540;
   text-decoration: none;
 }
@@ -153,7 +153,7 @@ h1 {
 .main-cta {
   color: #ffffff;
   background: linear-gradient(0.06turn, #001cd4, #162ec5, #001cd4);
-  padding: 15px 25px;
+  padding: 15px 15px;
   border-radius: 15px;
   font-weight: bold;
   letter-spacing: 0.15em;
