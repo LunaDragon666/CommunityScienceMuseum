@@ -76,8 +76,9 @@ h1 {
   text-align: center;
   padding: 0;
   width: 50%;
-  top: 40%;
+  top: 10%;
   left: 50%;
+  margin: 0 -35px;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
