@@ -49,6 +49,7 @@ a {
 
 /* Navigation bar header ~ links */
 .header li a {
+  font-size: 1.2em;
   font-weight: bold;
   letter-spacing: 0.1em;
   display: block;
