@@ -39,7 +39,7 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #eee5e9;
+  background-color: #e2e2e2;
 }
 .header .menu {
   clear: both;
@@ -200,7 +200,7 @@ h1 {
 
 /* Blog post layout (card grid) */
 .grid > article {
-  background: #eee5e9;
+  background: #e2e2e2;
   border: none;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
