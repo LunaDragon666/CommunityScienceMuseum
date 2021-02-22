@@ -12,34 +12,36 @@
 <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- Top Navigation bar -->
-<header class="topnav-bar">
+
+<!-- TOP NAVIGATION BAR ~ MAIN MENU -->
+<header class="header">
 <!-- Logo -->
-<a href="index.html"><img src="images/logo/logodesign.png" class="CSMlogo" alt="Atom symbol with a keyhole in the middle"></a>
+<a href="index.html" class="logo"><img src="images/logo/logodesign.png" class="logoimage" alt="Atom symbol with a keyhole in the middle"></a>
 <!-- Hamburger menu -->
-<label for="hamburger"><i class="fas fa-bars"></i></label>
-<input type="checkbox" id="hamburger-menu" />
-</label>
-<nav>
-<!-- Menu links -->
-<ul>
-<li><a href="pages/exhibitions.html">Our exhibitions</a></li>
-<li><a href="pages/visit.html">Visit us</a></li>
-<li><a href="pages/about.html">About</a></li>
-<li><a href="pages/workplace.html">Get involved</a></li>
-<li><a href="contact.html">Contact us</a></li>
+<input class="menu-btn" type="checkbox" id="menu-btn">
+<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+<!-- Links -->
+<ul class="menu">
+<li class="menusect"><a href="pages/exhibitions.html">Our exhibitions</a></li>
+<li class="menusect"><a href="pages/visit.html">Visit us</a></li>
+<li class="menusect"><a href="pages/about.html">About</a></li>
+<li class="menusect"><a href="pages/workplace.html">Get involved</a></li>
+<li class="menusect"><a href="contact.html">Contact us</a></li>
 </ul>
-</nav>
 </header>
-<!-- Header page -->
+
+<!-- HEADER SECTION ~ HOME PRESENTATION PAGE -->
 <main>
+<!-- Image header placement -->
 <section class="headpage">
+<!-- Header content headings -->
 <div class="header_page">
 <h1>Explore together</h1>
 <p class="header_text">The wonders of science</p>
+<!-- Main CTA-button (Visit us) -->
 <a href="pages/visit.html" class="main-cta">Visit us</a>
 </div>
-</section>
+</section>   
 
 <!-- COMING EVENTS ~ BLOGPOSTS -->
 <section class="blogpage">
@@ -78,12 +80,12 @@
 </article>
 </main>
 </section>
-
+    
 <!-- EXHIBITIONS OVERVIEW ~ GALLERY -->
 <section class="exhibitpage">
 <h2 class="subheading" id="subhead">Our exhibitions</h2>
 <span class="section-heading--arrow"></span>
-   
+<!-- Exhibit. 1 -->   
 <section id="casestudies" class="casestudies">
 <article class="content">
 <a href="autoshow.html">
@@ -95,7 +97,7 @@
 </div>
 </a>
 </article>
-    
+<!-- Exhibit. 2 -->   
 <article class="content">
 <div class="content-overlay"></div>
 <img class="content-image" src="images/gallery-exhibit/biology.jpg" alt="">
@@ -104,7 +106,7 @@
 <p class="content-text">The history of medicine</p>
 </div>
 </article>
-    
+<!-- Exhibit. 3 -->           
 <article class="content">
 <div class="content-overlay"></div>
 <img class="content-image" src="images/gallery-exhibit/biology.jpg" alt="">
@@ -113,7 +115,7 @@
 <p class="content-text">The history of medicine</p>
 </div>
 </article>
-    
+<!-- Exhibit. 4 -->          
 <article class="content">
 <div class="content-overlay"></div>
 <img class="content-image" src="images/gallery-exhibit/biology.jpg" alt="">
@@ -122,7 +124,7 @@
 <p class="content-text">The history of medicine</p>
 </div>
 </article>
-    
+<!-- Exhibit. 5 -->           
 <article class="content">
 <div class="content-overlay"></div>
 <img class="content-image" src="images/gallery-exhibit/biology.jpg" alt="">
@@ -130,7 +132,8 @@
 <h2 class="content-title">Biology</h2>
 <p class="content-text">The history of medicine</p>
 </div>
-</article>   
+</article>
+<!-- Exhibit. 6 -->      
 <article class="content">
 <div class="content-overlay"></div>
 <img class="content-image" src="images/gallery-exhibit/biology.jpg" alt="">
@@ -140,7 +143,9 @@
 </div>
 </article>
 </section>
+</section>
 </main>
+
 <!-- Footer -->
 <footer>
 <section class="footer_content">
