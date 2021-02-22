@@ -275,6 +275,13 @@ h3.blog_titles {
 .content {
   position: relative;
 }
+.content-image {
+  width: 85%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Gallery content details ~ hover effect(s) */
 .content .content-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -293,11 +300,6 @@ h3.blog_titles {
 }
 .content:hover .content-overlay {
   opacity: 1;
-}
-.content-image {
-  width: 85%;
-  height: auto;
-  border-radius: 20px;
 }
 .content-details {
   position: absolute;
@@ -320,18 +322,24 @@ h3.blog_titles {
   left: 50%;
   opacity: 1;
 }
+.fadeIn-bottom {
+  top: 80%;
+}
+
+/* Gallery content details ~ text */
+.content-details h2,
+.content-details p {
+  letter-spacing: 0.15em;
+}
 .content-details h2 {
   color: #f4faff;
-  font-weight: 100;
-  margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 .content-details p {
   color: #f4faff;
   font-size: 1em;
 }
-.fadeIn-bottom {
-  top: 80%;
-}
+
 /* FOOTER SECTION */
 footer {
   background-color: #001cd4;
