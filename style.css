@@ -50,7 +50,7 @@ h1 {
 .content .content-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
-  width: 75%;
+  width: 85%;
   left: 0;
   top: 0;
   bottom: 0;
@@ -68,7 +68,7 @@ h1 {
 }
 
 .content-image {
-  width: 75%;
+  width: 85%;
   height: auto;
 }
 .content-details {
