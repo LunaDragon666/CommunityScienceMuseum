@@ -71,7 +71,7 @@ li.menusect {
 .header .menu-icon {
   cursor: pointer;
   float: right;
-  padding: 40px 20px;
+  padding: 40px 40px;
   position: relative;
   user-select: none;
 }
@@ -184,14 +184,12 @@ h1 {
 
 /* Subheading decor */
 .subheading {
-  color: white;
-  font-weight: 600;
+  color: #001cd4;
+  font-weight: 800;
   font-size: 2.5em;
   letter-spacing: 2.5px;
-  margin-top: 0;
-  margin-bottom: 25px;
-  padding: 15px 50px;
-  background-color: #001cd4;
+  margin: 0 0 20px 20px;
+  padding: 10px 45px;
 }
 .section-heading--arrow {
   border-left: 20px solid transparent;
@@ -270,32 +268,32 @@ h3.blog_titles {
 
 /* EXHIBITIONS */
 .casestudies {
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 25px 0;
-  grid-gap: 10px;
+  /* margin: 13px 0; */
+  grid-gap: 5px;
+  margin: 0px 30px;
 }
 .content {
   position: relative;
 }
 .content-image {
-  width: 85%;
-  height: auto;
+  width: 90%;
+  height: 90%;
   border-radius: 20px;
 }
 
 /* Gallery content details ~ hover effect(s) */
 .content .content-overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(17, 8, 99, 0.7);
   position: absolute;
-  width: 85%;
-  height: 99%;
-  left: 0;
-  top: 0;
+  height: 90%;
+  left: 29.5px;
+  top: 0px;
   bottom: 0;
-  right: 0;
+  right: 31.5px;
   opacity: 0;
-  margin: 0;
   padding: 0;
   border-radius: 20px;
   -moz-transition: all 0.4s ease-in-out 0s;
@@ -309,9 +307,8 @@ h3.blog_titles {
   text-align: center;
   padding: 0;
   width: 50%;
-  top: 10%;
   left: 50%;
-  margin: 0px -40px;
+  margin: -20px 0;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -326,21 +323,25 @@ h3.blog_titles {
   opacity: 1;
 }
 .fadeIn-bottom {
-  top: 80%;
+  top: 75%;
 }
 
 /* Gallery content details ~ text */
 .content-details h2,
 .content-details p {
   letter-spacing: 0.15em;
+  line-height: 15px;
 }
 .content-details h2 {
   color: #f4faff;
   font-weight: bold;
+  font-size: 2.5em;
+  line-height: 1.1em;
 }
 .content-details p {
   color: #f4faff;
-  font-size: 1em;
+  font-size: 1.4em;
+  line-height: 1.4em;
 }
 
 /* FOOTER SECTION */
@@ -350,7 +351,8 @@ footer {
   text-align: center;
   color: #ffffff;
   font-size: 0.8em;
-  margin: -15px 0;
+  margin: 0;
+  min-height: 600px;
 }
 h5 {
   font-size: 1.4em;
@@ -385,11 +387,11 @@ h5 {
 /* Opening hours ~ table */
 p,
 table {
-  font-size: 1.2em;
-  line-height: 1.9em;
+  font-size: 1.4em;
+  line-height: 1.4em;
 }
 th {
-  width: 125px;
+  width: 175px;
 }
 
 /* Subscribe ~ button */
