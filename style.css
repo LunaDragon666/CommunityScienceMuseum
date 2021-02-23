@@ -267,11 +267,13 @@ h3.blog_titles {
 }
 
 /* EXHIBITIONS */
+.exhibitpage {
+  margin: 100px 0 -40px 0;
+}
 .casestudies {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* margin: 13px 0; */
   grid-gap: 5px;
   margin: 0px 30px;
 }
@@ -282,6 +284,31 @@ h3.blog_titles {
   width: 90%;
   height: 90%;
   border-radius: 20px;
+}
+
+/* Exhibition heading ~ design */
+.subhead-dec {
+  border: 2px solid #1596ff;
+  border-radius: 25px;
+  width: 93%;
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+
+.header_link {
+  font-family: "Montserrat", sans-serif;
+  float: right;
+  margin: -53px 65px;
+  color: #001cd4;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  font-weight: 800;
+}
+.header_link:hover {
+  text-decoration: underline;
+}
+i.fas.fa-images {
+  margin-right: 25px;
 }
 
 /* Gallery content details ~ hover effect(s) */
