@@ -191,13 +191,6 @@ h1 {
   margin: 0 0 20px 20px;
   padding: 10px 45px;
 }
-.section-heading--arrow {
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #001cd4;
-  position: absolute;
-  margin-top: -25px;
-}
 
 /* Blog post layout (card grid) */
 .grid > article {
@@ -266,11 +259,11 @@ h3.blog_titles {
   color: #001cd4;
 }
 
-/* EXHIBITIONS */
+/* EXHIBITIONS OVERVIEW ~ GALLERY */
 .exhibitpage {
   margin: 100px 0 -40px 0;
 }
-.casestudies {
+.gallery-page {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -285,7 +278,6 @@ h3.blog_titles {
   height: 90%;
   border-radius: 20px;
 }
-
 /* Exhibition heading ~ design */
 .subhead-dec {
   border: 2px solid #1596ff;
@@ -294,7 +286,6 @@ h3.blog_titles {
   margin-top: -10px;
   margin-bottom: 60px;
 }
-
 .header_link {
   font-family: "Montserrat", sans-serif;
   float: right;
@@ -310,7 +301,6 @@ h3.blog_titles {
 i.fas.fa-images {
   margin-right: 25px;
 }
-
 /* Gallery content details ~ hover effect(s) */
 .content .content-overlay {
   background: rgba(17, 8, 99, 0.7);
@@ -352,7 +342,6 @@ i.fas.fa-images {
 .fadeIn-bottom {
   top: 75%;
 }
-
 /* Gallery content details ~ text */
 .content-details h2,
 .content-details p {
