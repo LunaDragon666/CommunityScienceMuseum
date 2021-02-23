@@ -363,6 +363,13 @@ h5 {
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
 }
+.contact-info,
+.opening-hours,
+.menu-links,
+.cta-footer,
+.copy {
+  text-align: left;
+}
 
 /* Back-to-top-menu ~ button */
 .topmenu i {
@@ -373,6 +380,16 @@ h5 {
 .topmenu i:hover {
   transition: 0.1s;
   color: #91cfff;
+}
+
+/* Opening hours ~ table */
+p,
+table {
+  font-size: 1.2em;
+  line-height: 1.9em;
+}
+th {
+  width: 125px;
 }
 
 /* Subscribe ~ button */
@@ -415,12 +432,17 @@ footer input[type="submit"]:hover {
   justify-content: space-between;
 }
 .social-media i {
-  color: var(--cream);
-
+  color: #ffffff;
   font-size: 1.5em;
   cursor: pointer;
 }
 footer i:hover {
   transition: 0.1s;
   color: #91cfff;
+}
+
+/* Copyright text */
+p.copy {
+  text-align: center;
+  margin: -18px 0;
 }
