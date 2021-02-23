@@ -1,19 +1,37 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .casestudies,
+  .footer_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* FOR SMALLER SCREENSIZES ~ from mobilephones to tablets*/
 @media (min-width: 360px) and (max-width: 768px) {
-  .exhibit_gallery,
+  .exhibit_page,
   .footer_content {
     grid-template-columns: 1fr;
   }
+  /* Header */
   h1 {
-    font-size: 4em;
+    font-size: 2.5em;
+    text-align: center;
   }
-  .headpage {
-    min-height: auto;
+  .header_text {
+    font-size: 1.25em;
+    margin-top: -15px;
+    margin-bottom: 40px;
   }
-  .footer_content {
-    display: grid;
+  .main-cta {
+    font-size: 0.8em;
+    margin: 0 140px;
   }
+  /* Content pages */
   .grid,
   .casestudies {
     grid-template-columns: 1fr;
+  }
+  /* Footer */
+  .footer_content {
+    display: grid;
   }
 }
