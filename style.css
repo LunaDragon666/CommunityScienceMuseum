@@ -145,7 +145,7 @@ h1 {
 }
 .header_text {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: -48px;
   margin-bottom: 50px;
   text-align: center;
