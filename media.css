@@ -5,27 +5,37 @@
   }
 }
 
-/* FOR SMALLER SCREENSIZES ~ from mobilephones to tablets*/
+/* FOR MOBILE PHONES */
 @media (min-width: 360px) and (max-width: 768px) {
-  .exhibit_page,
-  .footer_content {
-    grid-template-columns: 1fr;
+  .header ul {
+    background-color: #001cd4;
+  }
+  .header li a {
+    color: #ffffff;
   }
   /* Header */
+  .headpage {
+    min-height: 50vh;
+  }
   h1 {
     font-size: 2.5em;
     text-align: center;
   }
   .header_text {
-    font-size: 1.25em;
-    margin-top: -15px;
-    margin-bottom: 40px;
+    font-size: 1.5em;
+    margin-top: -20px;
+    margin-bottom: 50px;
   }
   .main-cta {
-    font-size: 0.8em;
+    font-size: 1em;
     margin: 0 140px;
+    padding: 15px 30px;
   }
   /* Content pages */
+  .exhibit_page,
+  .footer_content {
+    grid-template-columns: 1fr;
+  }
   .grid,
   .casestudies {
     grid-template-columns: 1fr;
