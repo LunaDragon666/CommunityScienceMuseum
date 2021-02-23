@@ -154,10 +154,11 @@ h1 {
 /* Main CTA-button */
 .main-cta {
   color: #ffffff;
-  background: linear-gradient(0.06turn, #001cd4, #162ec5, #001cd4);
+  background: linear-gradient(0.06turn, #0f219b, #162ec5, #2a44ec);
+  border: 4px solid #162ec5;
   padding: 15px 15px;
   border-radius: 15px;
-  font-weight: bold;
+  font-weight: bolder;
   letter-spacing: 0.15em;
   margin: 0 215px;
   text-transform: uppercase;
