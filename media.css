@@ -69,12 +69,12 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 15px;
     margin: 0 20px;
   }
   .grid > article {
     width: 350px;
-    margin: 5px 0px;
+    margin: 15px 0px;
   }
   .event__date {
     width: 300px;
