@@ -66,15 +66,18 @@
     min-height: 100vh;
   }
   /* Blogpage section */
+  .blogpage {
+    margin-bottom: -60px;
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    margin: 0 20px;
+    grid-gap: 25px;
+    margin: -30px 20px;
   }
   .grid > article {
     width: 350px;
-    margin: 15px 0px;
+    margin: 10px 0px;
   }
   .event__date {
     width: 300px;
@@ -82,14 +85,14 @@
     font-size: 1.4em;
   }
   h3.blog_titles {
-    font-size: 1.3em;
+    font-size: 2.5em;
     font-weight: 800;
   }
   .event-date {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .blogtext {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .read-btn,
   .read-btn:hover {
@@ -106,8 +109,8 @@
     margin: 0;
   }
   .content .content-overlay {
-    left: 22px;
-    right: 22px;
+    left: 19px;
+    right: 20px;
   }
   .content-details h2 {
     font-size: 2em;
