@@ -48,8 +48,9 @@
   .header {
     margin: 0;
   }
+  /* Header */
   .headpage {
-    min-height: 120vh;
+    min-height: 100vh;
     margin: -75px 0;
   }
   .grid {
