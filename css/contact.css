@@ -2,3 +2,9 @@ body,
 .headpage {
   background: #1596ff;
 }
+
+/* HEADER */
+h1,
+.header_text {
+  text-align: center;
+}
