@@ -1,11 +1,5 @@
 /* FOR MOBILE PHONES */
 @media (min-width: 360px) and (max-width: 768px) {
-  .header ul {
-    background-color: #001cd4;
-  }
-  .header li a {
-    color: #ffffff;
-  }
   /* Header */
   .headpage {
     min-height: 50vh;
