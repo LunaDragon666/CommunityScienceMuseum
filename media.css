@@ -38,3 +38,13 @@
     height: 1200px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .headpage {
+    width: 100%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+}
