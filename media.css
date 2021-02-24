@@ -41,7 +41,7 @@
 
 @media (min-width: 769px) and (max-width: 1280px) {
   .headpage {
-    width: 100%;
+    width: 103%;
   }
   .grid {
     grid-template-columns: 1fr;
