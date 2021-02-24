@@ -1,8 +1,4 @@
-body {
-  background: aquamarine;
-}
-
-/* HEADER */
+body,
 .headpage {
-  background: blue;
+  background: #1596ff;
 }
