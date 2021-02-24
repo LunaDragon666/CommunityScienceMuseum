@@ -39,6 +39,7 @@
   /* Exhibition gallery */
   .subheading {
     font-size: 2em;
+    margin-top: 5px;
     margin-left: -10px;
   }
   .header_link {
