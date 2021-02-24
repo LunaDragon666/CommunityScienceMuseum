@@ -43,7 +43,7 @@
   body,
   html {
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: visible;
   }
   .header {
     margin: 0;
