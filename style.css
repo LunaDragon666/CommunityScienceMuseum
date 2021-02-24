@@ -104,7 +104,7 @@ li.menusect {
 .header .menu-icon {
   cursor: pointer;
   float: right;
-  padding: 30px 30px;
+  padding: 40px 30px;
   position: relative;
   user-select: none;
 }
