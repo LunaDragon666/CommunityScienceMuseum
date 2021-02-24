@@ -69,8 +69,8 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    margin: 0 30px;
+    grid-gap: 10px;
+    margin: 0 20px;
   }
   .grid > article {
     width: 350px;
