@@ -10,12 +10,8 @@
     grid-template-columns: 1fr;
   }
   /* Header */
-  .header {
-    margin: 0;
-    width: 100%;
-  }
   .headpage {
-    min-height: 150vh;
+    min-height: 60vh;
   }
   .main-cta {
     margin: 0;
