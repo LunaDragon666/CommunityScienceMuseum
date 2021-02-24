@@ -1,9 +1,5 @@
 /* FOR MOBILE PHONES */
 @media (min-width: 360px) and (max-width: 768px) {
-  body,
-  html {
-    overflow-x: hidden;
-  }
   .logoimage {
     width: 250px;
   }
@@ -57,11 +53,6 @@
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
-  body,
-  html {
-    overflow-x: hidden;
-    overflow-y: visible;
-  }
   .subheading {
     margin: 20px -25px;
   }
