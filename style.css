@@ -19,23 +19,25 @@ a {
   padding: 10px 45px;
 }
 .subhead-dec {
-  border: 1px solid #1596ff;
+  border: 4px solid #1596ff;
   border-radius: 25px;
-  width: 91%;
+  width: 93%;
   margin-top: -10px;
   margin-bottom: 60px;
 }
 .header_link {
   font-family: "Montserrat", sans-serif;
   float: right;
-  margin: -53px 65px;
+  margin: -55px 65px;
   color: #001cd4;
   font-size: 1.2em;
   letter-spacing: 3px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 .header_link:hover {
   text-decoration: underline;
+  letter-spacing: 5px;
 }
 /* Icons from subheadings */
 i.fas.fa-images,
@@ -59,7 +61,7 @@ i.fas.fa-calendar-alt {
 /* Navigation bar header */
 .header {
   background-color: #ffffff;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 4px 0 #1d276b;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -71,7 +73,7 @@ i.fas.fa-calendar-alt {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #e2e2e2;
+  background-color: #001cd4;
 }
 .header .menu {
   clear: both;
@@ -81,18 +83,18 @@ i.fas.fa-calendar-alt {
 
 /* Navigation bar header ~ links */
 .header li a {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   letter-spacing: 0.1em;
   display: block;
   padding: 20px 20px;
-  color: #2a1540;
+  color: #ffffff;
   text-decoration: none;
 }
 .header li a:hover,
 .header .menu-btn:hover {
-  color: #001cd4;
   text-decoration: underline;
+  letter-spacing: 0.25em;
 }
 li.menusect {
   text-align: center;
@@ -102,29 +104,32 @@ li.menusect {
 .header .menu-icon {
   cursor: pointer;
   float: right;
-  padding: 40px 40px;
+  padding: 30px 30px;
   position: relative;
   user-select: none;
 }
 .header .menu-icon .navicon {
   background: #2a1540;
   display: block;
-  height: 0.2em;
+  height: 0.3em;
   position: relative;
   transition: background 0.2s ease-out;
   width: 2em;
+  border-radius: 30%;
 }
 
 /* Hamburger menu ~ Button */
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #2a1540;
   content: "";
   display: block;
   height: 100%;
+  margin-top: 15px;
   position: absolute;
   transition: all 0.2s ease-out;
   width: 100%;
+  border-radius: 30%;
 }
 .header .menu-btn {
   display: none;
@@ -133,6 +138,7 @@ li.menusect {
 /* Hamburger menu ~ Button animation */
 .header .menu-btn:checked ~ .menu {
   max-height: 350px;
+  padding: 56px 0;
 }
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
@@ -173,84 +179,110 @@ main {
 h1 {
   font-size: 4rem;
   color: #ffffff;
+  letter-spacing: 0.1em;
 }
 .header_text {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: -48px;
   margin-bottom: 50px;
   text-align: center;
+  letter-spacing: 0.05em;
   color: #ffffff;
 }
 /* Main CTA-button */
 .main-cta {
   color: #ffffff;
-  background: linear-gradient(0.06turn, #0f219b, #162ec5, #2a44ec);
-  border: 4px solid #162ec5;
-  padding: 15px 15px;
+  text-shadow: -1px 0 #1226a5, 0 1px #1226a5, 1px 0 #1226a5, 0 -1px #1226a5;
+  background: linear-gradient(to right, #00159d 0%, #00159d 51%, #00159d 100%);
+  padding: 20px 30px;
   border-radius: 15px;
   font-weight: bolder;
-  letter-spacing: 0.15em;
-  margin: 0 215px;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  margin: 0 225px;
   text-transform: uppercase;
-  box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 30%);
+  font-weight: 800;
 }
 .main-cta:hover {
-  background: #ffffff;
-  color: #001cd4;
-  border: 3.5px solid #001cd4;
   font-weight: 800;
+  background: linear-gradient(to right, #001cd4 0%, #001cd4 51%, #001cd4 100%);
+  padding: 20px 35px;
 }
 
 /* COMING EVENTS ~ BLOGPOSTS */
 .grid {
-  margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 611px);
+  margin: 0px 60px;
 }
 .blogpage {
-  margin-bottom: 25px;
+  margin-bottom: -40px;
 }
 
 /* Blog post layout (card grid) */
 .grid > article {
-  background: #e2e2e2;
+  background: #e6e6e6;
   border: none;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   text-align: center;
-  width: 300px;
+  width: 550px;
   transition: transform 0.3s;
 }
 .grid > article:hover {
   transform: translateY(5px);
-  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
 }
 .grid > article img {
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+.event__date {
+  height: 120px;
+  width: 325px;
+  border-radius: 0 0 20px 20px;
+  background: #00159d;
+  position: absolute;
+  margin: 0 113px;
+  color: white;
+  line-height: 5em;
+  letter-spacing: 0.15em;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: -1px 0 #1226a5, 0 1px #1226a5, 1px 0 #1226a5, 0 -1px #1226a5;
+}
+.blog--dec {
+  border: 4px solid #001cd4;
+  border-radius: 10px;
+  width: 15%;
+}
 
 /* Blog text content */
 h3.blog_titles {
+  font-size: 2em;
   margin-bottom: -10px;
+  color: #2a1540;
+  letter-spacing: 0.025em;
 }
 .text {
-  padding: 0 20px 20px;
+  padding: 0 40px 75px;
 }
 .blogtext {
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight: 400;
   text-align: left;
-  line-height: 1.8;
+  line-height: 1.7;
   word-spacing: 2px;
+  margin-top: 35px;
+  color: #2a1540;
 }
 .event-date {
-  font-size: 0.75em;
+  font-size: 1.1em;
   text-transform: uppercase;
+  letter-spacing: 0.07em;
   margin-bottom: 27px;
+  color: #2a1540;
 }
 
 /* CTA-button for blog section */
@@ -259,19 +291,23 @@ h3.blog_titles {
   border-radius: 20px;
   border: none;
   color: #ffffff;
-  margin: 20px 0px 0px 0px;
-  padding: 15px 0;
-  width: 60%;
+  margin: 30px 0px 0px 0px;
+  padding: 20px 0;
+  width: 40%;
+  font-size: 1.1em;
   font-weight: 600;
   cursor: pointer;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.15em;
   word-spacing: 1.5px;
-  letter-spacing: 1;
+  border: 4px solid #001cd4;
 }
 .read-btn:hover {
   background: #ffffff;
   color: #001cd4;
-  border: 2.5px solid #001cd4;
+  border: 4px solid #001cd4;
+  text-transform: uppercase;
+  width: 50%;
+  font-weight: 800;
 }
 .read-btn a {
   color: #ffffff;
@@ -304,10 +340,10 @@ h3.blog_titles {
   background: rgba(17, 8, 99, 0.7);
   position: absolute;
   height: 90%;
-  left: 24px;
+  left: 30px;
   top: 0px;
   bottom: 0;
-  right: 24.5px;
+  right: 29.5px;
   opacity: 0;
   padding: 0;
   border-radius: 20px;
@@ -366,7 +402,7 @@ footer {
   color: #ffffff;
   font-size: 0.8em;
   margin: 0;
-  height: 600px;
+  height: 605px;
 }
 h5 {
   font-size: 1.4em;
@@ -390,7 +426,7 @@ h5 {
 
 /* Back-to-top-menu ~ button */
 .topmenu i {
-  font-size: 2.5em;
+  font-size: 4em;
   padding: 60px 0 140px 0;
   color: #ffffff;
 }
@@ -443,14 +479,14 @@ footer input[type="submit"]:hover {
 
 /* Social media ~ buttons */
 .social-media {
-  margin: 20px 5px;
+  margin: 35px 0;
   display: flex;
   width: 24em;
   justify-content: space-between;
 }
 .social-media i {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.9em;
   cursor: pointer;
 }
 footer i:hover {
