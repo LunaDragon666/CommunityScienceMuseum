@@ -45,6 +45,19 @@
     overflow-x: hidden;
     overflow-y: visible;
   }
+  .subheading {
+    margin: 20px -25px;
+  }
+  .header_link {
+    margin: -60px 30px 0 0;
+  }
+  .subhead-dec {
+    width: 94%;
+  }
+  i.fas.fa-images,
+  i.fas.fa-calendar-alt {
+    margin-right: 30px;
+  }
   /* Header */
   .header {
     margin: 0;
@@ -62,5 +75,18 @@
   .gallery-page,
   .footer_content {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-page {
+    margin: 0;
+  }
+  .content .content-overlay {
+    left: 22px;
+    right: 22px;
+  }
+  .content-details h2 {
+    font-size: 2em;
+  }
+  .content-details p {
+    font-size: 1.4em;
   }
 }
