@@ -69,15 +69,15 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    margin: 0 60px;
+    grid-gap: 10px;
+    margin: 0 30px;
   }
   .grid > article {
-    width: 380px;
+    width: 350px;
   }
   .event__date {
     width: 300px;
-    margin: 0 40px;
+    margin: 0 25px;
     font-size: 1.4em;
   }
   h3.blog_titles {
