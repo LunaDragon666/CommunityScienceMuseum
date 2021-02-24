@@ -10,12 +10,25 @@
     grid-template-columns: 1fr;
   }
   /* Header */
+  h1 {
+    font-size: 2.1em;
+    margin: 0px 0 10px 0;
+  }
   .headpage {
     min-height: 60vh;
+  }
+  .header_text,
+  h1 {
+    text-align: center;
+  }
+  .header_text {
+    font-size: 1.5em;
+    margin: 0px 0px 70px 0px;
   }
   .main-cta {
     margin: 0 80px;
   }
+  /* Blogpage section */
   .event__date {
     margin: 0;
     width: 300px;
