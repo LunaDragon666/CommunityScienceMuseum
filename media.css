@@ -45,15 +45,22 @@
     overflow-x: hidden;
     overflow-y: visible;
   }
+  /* Header */
   .header {
     margin: 0;
   }
-  /* Header */
   .headpage {
-    min-height: 120vh;
+    min-height: 100vh;
   }
   .grid {
     grid-template-columns: 1fr;
     margin: auto;
+  }
+  /* Blogpage section */
+
+  /* Exhibition gallery */
+  .gallery-page,
+  .footer_content {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
