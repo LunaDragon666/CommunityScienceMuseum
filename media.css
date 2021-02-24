@@ -58,6 +58,11 @@
   i.fas.fa-calendar-alt {
     margin-right: 30px;
   }
+  .blogpage,
+  .exhibitpage {
+    margin: 0px 0 40px 0;
+  }
+
   /* Header */
   .header {
     margin: 0;
@@ -66,9 +71,6 @@
     min-height: 100vh;
   }
   /* Blogpage section */
-  .blogpage {
-    margin-bottom: -100px;
-  }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
