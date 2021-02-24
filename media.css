@@ -50,6 +50,7 @@
   }
   .headpage {
     min-height: 120vh;
+    margin: -75px 0;
   }
   .grid {
     grid-template-columns: 1fr;
