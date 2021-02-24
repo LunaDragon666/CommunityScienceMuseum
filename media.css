@@ -1,9 +1,6 @@
 /* FOR MOBILE PHONES */
 @media (min-width: 360px) and (max-width: 768px) {
   /* Header */
-  .headpage {
-    min-height: 50vh;
-  }
   h1 {
     font-size: 2.5em;
     text-align: center;
@@ -16,19 +13,28 @@
   }
   .main-cta {
     font-size: 1em;
-    margin: 0 140px;
+    margin: 0 200px;
   }
-  /* Content pages */
-  .exhibit_page,
-  .footer_content {
-    grid-template-columns: 1fr;
+  /* Exhibition gallery */
+  .subheading {
+    font-size: 1.9em;
   }
-  .grid,
-  .casestudies {
-    grid-template-columns: 1fr;
+  .header_link {
+    font-size: 0.9em;
+    margin: -55px 45px;
+  }
+  i.fas.fa-images,
+  i.fas.fa-calendar-alt .exhibitpage {
+    margin: 0 10px 0 -10px;
+  }
+  .subhead-dec {
+    width: 85%;
+  }
+  .gallery-page {
+    grid-template-columns: auto;
   }
   /* Footer */
-  .footer_content {
-    display: grid;
+  footer {
+    height: 1200px;
   }
 }
