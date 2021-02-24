@@ -38,18 +38,23 @@
   }
   /* Exhibition gallery */
   .subheading {
-    font-size: 1.9em;
+    font-size: 1.6em;
+    margin-left: -10px;
   }
   .header_link {
+    position: absolute;
     font-size: 0.9em;
-    margin: -55px 45px;
+    margin: -20px 70px;
+    white-space: nowrap;
+  }
+  .subhead-dec {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   i.fas.fa-images,
   i.fas.fa-calendar-alt .exhibitpage {
     margin: 0 10px 0 -10px;
-  }
-  .subhead-dec {
-    width: 85%;
   }
   .gallery-page {
     grid-template-columns: auto;
