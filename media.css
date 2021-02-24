@@ -40,8 +40,14 @@
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .header {
+    margin: 0;
+  }
   .headpage {
-    width: 102.5%;
     min-height: 120vh;
   }
   .grid {
