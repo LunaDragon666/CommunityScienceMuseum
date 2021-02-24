@@ -65,11 +65,36 @@
   .headpage {
     min-height: 100vh;
   }
-  .grid {
-    grid-template-columns: 1fr;
-    margin: auto;
-  }
   /* Blogpage section */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin: 0 60px;
+  }
+  .grid > article {
+    width: 380px;
+  }
+  .event__date {
+    width: 300px;
+    margin: 0 40px;
+    font-size: 1.4em;
+  }
+  h3.blog_titles {
+    font-size: 1.3em;
+    font-weight: 800;
+  }
+  .event-date {
+    font-size: 1em;
+  }
+  .blogtext {
+    font-size: 1.2em;
+  }
+  .read-btn,
+  .read-btn:hover {
+    font-size: 1.3em;
+    width: 90%;
+  }
 
   /* Exhibition gallery */
   .gallery-page,
