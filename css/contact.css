@@ -95,6 +95,12 @@ textarea {
 textarea#message {
   min-height: 200px;
 }
+.message {
+  position: absolute;
+}
+.message-field {
+  margin: 40px 0;
+}
 /* Send message ~ Button */
 input[type="submit"] {
   background-color: #001cd4;
