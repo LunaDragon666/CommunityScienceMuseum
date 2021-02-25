@@ -5,6 +5,8 @@
 
 .content_placement {
   background: white;
+  height: 500px;
+  width: 500px;
 }
 
 .image_placement {
