@@ -14,8 +14,9 @@ h1,
 
 /* CONTACT FORM */
 .contact-container {
-  padding: 50px;
-  margin: -100px 0 0 0;
+  padding: 200px;
+  margin-top: -200px;
+  margin-bottom: -120px;
 }
 
 /* Contact form ~ headings */
@@ -26,6 +27,7 @@ label {
 }
 
 /* Text areas */
+
 input,
 textarea#message {
   letter-spacing: 0.1em;
@@ -75,7 +77,13 @@ input[type="submit"] {
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 input[type="submit"]:hover {
-  background-color: #91cfff;
+  background-color: #ffffff;
+  color: #001cd4;
+  border: 3px solid #001cd4;
+  letter-spacing: 0.5em;
 }
