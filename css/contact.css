@@ -21,9 +21,7 @@ h1,
 input#name,
 input#phone,
 input#email,
-.styled-select,
-label.message,
-.message-field {
+.styled-select {
   margin: 15px 0px;
 }
 
@@ -101,6 +99,7 @@ textarea#message {
 .message-field {
   margin: 40px 0;
 }
+
 /* Send message ~ Button */
 input[type="submit"] {
   background-color: #001cd4;
