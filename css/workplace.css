@@ -148,6 +148,10 @@ p.intro-paragraph {
     font-size: 2.5em;
     margin-top: 0;
   }
+  .paragraph-decor,
+  .paragraph-decor-white {
+    width: 15%;
+  }
   .intro-paragraph {
     font-size: 1.75em;
   }
