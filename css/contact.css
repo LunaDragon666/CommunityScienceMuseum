@@ -18,6 +18,14 @@ h1,
   margin-top: -200px;
   margin-bottom: -120px;
 }
+input#name,
+input#phone,
+input#email,
+.styled-select,
+label.message,
+.message-field {
+  margin: 15px 0px;
+}
 
 /* Contact form ~ headings */
 label {
@@ -27,7 +35,6 @@ label {
 }
 
 /* Text areas */
-
 input,
 textarea#message {
   letter-spacing: 0.1em;
@@ -37,8 +44,9 @@ select,
 textarea,
 input[type="submit"] {
   font-family: "Montserrat", "sans-serif";
+  color: #2a1540;
+  letter-spacing: 0.15em;
 }
-
 input[type="text"],
 select,
 textarea {
@@ -51,23 +59,42 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-
 /* Contact form ~ Flexbox */
 .left {
-  width: 47%;
+  width: 50%;
   float: left;
-  margin-right: 6%;
+  margin-right: 3%;
 }
 .right {
   width: 47%;
   float: left;
 }
+/* Selectbox costum ~ arrow */
+.custom {
+  overflow: hidden;
+  position: relative;
+}
+.custom > select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.custom:after {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  right: 5px;
+  width: 2em;
+  content: "";
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAZJCYWISIYIyQYIiUWIiIYIyQYIiXh0rToAAAACHRSTlMA/hTRqiinvwFkb0sAAABCSURBVHjajchBDsAgDAPBOJDw/x+XVN0icQGfPGs3i+2GEqeiLCXWLENzvdzrDfP2ls/NjfKbgimYglfBq2Dm+LwHguMA235EdKYAAAAASUVORK5CYII=")
+    center no-repeat;
+  pointer-events: none;
+}
+/* Selectbox costum ~ option box */
 
 /* Message field */
 textarea#message {
   min-height: 200px;
 }
-
 /* Send message ~ Button */
 input[type="submit"] {
   background-color: #001cd4;
@@ -87,3 +114,5 @@ input[type="submit"]:hover {
   border: 3px solid #001cd4;
   letter-spacing: 0.5em;
 }
+
+/* MEDIA QUERIES */
