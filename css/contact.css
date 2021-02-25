@@ -121,7 +121,7 @@ input[type="submit"]:hover {
 /* MEDIA QUERIES */
 @media (min-width: 360px) and (max-width: 768px) {
   .contact-container {
-    padding: 50px;
+    padding: 35px;
     margin-top: -105px;
     margin-bottom: auto;
   }
