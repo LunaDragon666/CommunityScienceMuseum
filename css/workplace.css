@@ -136,4 +136,21 @@ p.intro-paragraph {
   .internship_img {
     height: 40vh;
   }
+  .volunteer_img,
+  .support_img,
+  .internship_img,
+  .volunteer_content,
+  .support_content,
+  .internship_content {
+    padding: 10%;
+  }
+  h2 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  .cta-btn,
+  .cta-application {
+    padding: 15px 30px;
+    margin: 40px 135px;
+  }
 }
