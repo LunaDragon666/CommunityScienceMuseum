@@ -1,4 +1,6 @@
-.leftside,
+.volunteer_img,
+.support_img,
+.internship_img,
 .rightside {
   color: #001cd4;
   padding: 5%;
@@ -7,8 +9,9 @@
   flex: 1;
 }
 
-.leftside {
-  background: url("../images/gallery/ecology.jpg") center bottom no-repeat;
+.volunteer_img,
+.support_img,
+.internship_img {
   background-size: cover;
   height: 67vh;
   position: relative;
@@ -16,6 +19,18 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.volunteer_img {
+  background: url("../images/gallery/biology.jpg") center bottom no-repeat;
+}
+
+.support_img {
+  background: url("../images/gallery/cosmology.jpg") center bottom no-repeat;
+}
+
+.internship_img {
+  background: url("../images/gallery/ecology.jpg") center bottom no-repeat;
 }
 
 .flexbox {
