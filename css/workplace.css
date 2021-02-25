@@ -1,12 +1,22 @@
 .volunteer_img,
 .support_img,
 .internship_img,
-.rightside {
-  color: #001cd4;
+.volunteer_content,
+.support_content,
+.internship_content {
   padding: 5%;
   text-align: left;
   -webkit-flex: 1;
   flex: 1;
+}
+
+.volunteer_content,
+.support_content {
+  color: #001cd4;
+}
+
+.internship_content {
+  color: black;
 }
 
 .volunteer_img,
