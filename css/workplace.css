@@ -45,12 +45,24 @@
   background-size: cover;
 }
 
-.flexbox {
+.volunteer_flexbox,
+support_flexbox,
+internship_flexbox {
   width: 100%;
   margin: 0 auto;
   display: -webkit-flex;
   display: flex;
-  background-color: #ffffff;
+}
+
+.volunteer_flexbox {
+  background: #ffffff;
+}
+.support_flexbox {
+  background: #91cfff;
+}
+
+.internship_flexbox {
+  background: #005fff;
 }
 
 .intro-paragraph {
