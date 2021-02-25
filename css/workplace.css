@@ -148,6 +148,10 @@ p.intro-paragraph {
     font-size: 2.5em;
     margin-top: 0;
   }
+  p,
+  .intro-paragraph {
+    font-size: 1.5em;
+  }
   .cta-btn,
   .cta-application {
     padding: 15px 30px;
