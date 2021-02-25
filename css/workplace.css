@@ -10,7 +10,7 @@
 .leftside {
   background: url("../images/gallery/ecology.jpg") center bottom no-repeat;
   background-size: cover;
-  height: 200vh;
+  height: 65vh;
   position: relative;
   display: flex;
   align-items: center;
