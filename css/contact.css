@@ -138,6 +138,26 @@ input[type="submit"]:hover {
   }
 }
 
+/* MEDIA QUERIES */
+@media (min-width: 360px) and (max-width: 768px) {
+  .contact-container {
+    padding: 50px;
+    margin-top: -105px;
+    margin-bottom: auto;
+  }
+  .left,
+  .right {
+    float: none;
+    width: 100%;
+  }
+  input[type="submit"] {
+    margin: auto;
+  }
+  .headpage {
+    height: 35vh;
+  }
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .contact-container {
     padding: 50px;
@@ -146,5 +166,14 @@ input[type="submit"]:hover {
   input[type="submit"] {
     margin-top: auto;
     margin-bottom: 150px;
+  }
+  .message {
+    position: relative;
+  }
+  .message-field {
+    margin: 20px 0;
+  }
+  input[type="submit"] {
+    margin-top: 10px;
   }
 }
