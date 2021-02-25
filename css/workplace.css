@@ -46,11 +46,10 @@
 }
 
 .volunteer_flexbox,
-support_flexbox,
-internship_flexbox {
+.support_flexbox,
+.internship_flexbox {
   width: 100%;
   margin: 0 auto;
-  display: -webkit-flex;
   display: flex;
 }
 
