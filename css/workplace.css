@@ -11,10 +11,7 @@
   text-align: left;
 }
 @media (min-width: 600px) {
-  body {
-    background: linear-gradient(90deg, #000599 50%, #006999 50%);
-  }
-  .flexbox {
+  .volunteer_content {
     width: 100%;
     margin: 0 auto;
     display: -webkit-flex;
