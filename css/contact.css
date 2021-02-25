@@ -8,3 +8,59 @@ h1,
 .header_text {
   text-align: center;
 }
+
+/* CONTACT FORM */
+.contact-container {
+  padding: 50px;
+  margin: -50px 0;
+}
+
+/* Contact form ~ headings */
+label {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+/* Text areas */
+input,
+textarea#message {
+  letter-spacing: 0.1em;
+}
+input[type="text"],
+select,
+textarea,
+input[type="submit"] {
+  font-family: "Montserrat", "sans-serif";
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Message field */
+textarea#message {
+  min-height: 200px;
+}
+
+/* Send message ~ Button */
+input[type="submit"] {
+  background-color: #001cd4;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #91cfff;
+}
