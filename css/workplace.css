@@ -131,4 +131,9 @@ p.intro-paragraph {
   .internship_flexbox {
     display: grid;
   }
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 40vh;
+  }
 }
