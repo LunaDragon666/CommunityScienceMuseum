@@ -1,14 +1,29 @@
-.volunteer_section {
-  display: flex;
-  flex-direction: row;
+.content_section {
+  background: #000599;
 }
-
-.content_placement {
-  background: white;
-  height: 500px;
-  width: 500px;
+.image_section {
+  background: #006999;
 }
-
-.image_placement {
-  width: 100%;
+.content_section,
+.image_section {
+  color: rgba(255, 255, 255, 0.4);
+  padding: 2%;
+  text-align: left;
+}
+@media (min-width: 600px) {
+  body {
+    background: linear-gradient(90deg, #000599 50%, #006999 50%);
+  }
+  .flexbox {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+  }
+  .content_section,
+  .image_section {
+    -webkit-flex: 1;
+    flex: 1;
+    background: none;
+  }
 }
