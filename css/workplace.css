@@ -40,15 +40,15 @@
   width: 100%;
 }
 .volunteer_img {
-  background: url("../images/gallery/biology.jpg") center bottom no-repeat;
+  background: url("../images/volunteers.jpg") center bottom no-repeat;
   background-size: cover;
 }
 .support_img {
-  background: url("../images/gallery/cosmology.jpg") center bottom no-repeat;
+  background: url("../images/support.jpg") center bottom no-repeat;
   background-size: cover;
 }
 .internship_img {
-  background: url("../images/gallery/ecology.jpg") center bottom no-repeat;
+  background: url("../images/scientists.jpg") center bottom no-repeat;
   background-size: cover;
 }
 
