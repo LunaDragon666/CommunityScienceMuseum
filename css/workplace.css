@@ -3,6 +3,8 @@
   color: rgba(255, 255, 255, 0.4);
   padding: 2%;
   text-align: left;
+  -webkit-flex: 1;
+  flex: 1;
 }
 
 .leftside {
@@ -16,18 +18,10 @@
   width: 100%;
 }
 
-@media (min-width: 600px) {
-  .flexbox {
-    width: 100%;
-    margin: 0 auto;
-    display: -webkit-flex;
-    display: flex;
-    background-color: #211e1e;
-  }
-  .leftside,
-  .rightside {
-    -webkit-flex: 1;
-    flex: 1;
-    background: none;
-  }
+.flexbox {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #211e1e;
 }
