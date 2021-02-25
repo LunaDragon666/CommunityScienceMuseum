@@ -184,11 +184,6 @@ p.intro-paragraph {
 @media (min-width: 1025px) and (max-width: 1600px) {
   .volunteer_img,
   .support_img,
-  .internship_img {
-    height: 140vh;
-  }
-  .volunteer_img,
-  .support_img,
   .internship_img,
   .volunteer_content,
   .support_content,
