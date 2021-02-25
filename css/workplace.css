@@ -122,7 +122,7 @@ p.intro-paragraph {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 360px) and (max-width: 1024px) {
+@media (min-width: 360px) and (max-width: 768px) {
   .headpage {
     height: 25vh;
   }
@@ -162,6 +162,17 @@ p.intro-paragraph {
   .cta-application {
     padding: 15px 30px;
     margin: 40px 100px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .headpage {
+    height: 70vh;
+  }
+  .volunteer_flexbox,
+  .support_flexbox,
+  .internship_flexbox {
+    display: grid;
   }
 }
 
