@@ -180,34 +180,3 @@ p.intro-paragraph {
     height: 125vh;
   }
 }
-
-@media (min-width: 1025px) and (max-width: 1600px) {
-  .volunteer_img,
-  .support_img,
-  .internship_img,
-  .volunteer_content,
-  .support_content,
-  .internship_content {
-    padding: 2.5%;
-  }
-  h2 {
-    font-size: 2em;
-    margin-top: 0;
-  }
-  .paragraph-decor,
-  .paragraph-decor-white {
-    margin-top: -10px;
-    margin-bottom: 10px;
-  }
-  p.intro-paragraph {
-    font-size: 0.9em;
-  }
-  p {
-    font-size: 0.75em;
-  }
-  .cta-btn,
-  .cta-application {
-    margin: 15px 125px;
-    padding: 10px 25px;
-  }
-}
