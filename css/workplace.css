@@ -122,7 +122,7 @@ p.intro-paragraph {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 1024px) {
   .headpage {
     height: 25vh;
   }
@@ -165,7 +165,7 @@ p.intro-paragraph {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1025px) and (max-width: 1600px) {
   .volunteer_img,
   .support_img,
   .internship_img {
