@@ -120,3 +120,12 @@ p.intro-paragraph {
   text-transform: uppercase;
   font-weight: 800;
 }
+
+/* MEDIA QUERIES */
+@media (min-width: 360px) and (max-width: 768px) {
+  .volunteer_flexbox,
+  .support_flexbox,
+  .internship_flexbox {
+    display: grid;
+  }
+}
