@@ -124,7 +124,7 @@ p.intro-paragraph {
 /* MEDIA QUERIES */
 @media (min-width: 360px) and (max-width: 768px) {
   .headpage {
-    height: 35vh;
+    height: 25vh;
   }
   .volunteer_flexbox,
   .support_flexbox,
