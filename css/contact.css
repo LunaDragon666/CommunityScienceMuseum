@@ -8,6 +8,9 @@ h1,
 .header_text {
   text-align: center;
 }
+.headpage {
+  min-height: 40vh;
+}
 
 /* CONTACT FORM */
 .contact-container {
@@ -45,6 +48,17 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+
+/* Contact form ~ Flexbox */
+.left {
+  width: 47%;
+  float: left;
+  margin-right: 6%;
+}
+.right {
+  width: 47%;
+  float: left;
 }
 
 /* Message field */
