@@ -162,8 +162,9 @@ p.intro-paragraph {
   }
   .cta-btn,
   .cta-application {
-    padding: 15px 30px;
-    margin: 40px 100px;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
   }
 }
 
