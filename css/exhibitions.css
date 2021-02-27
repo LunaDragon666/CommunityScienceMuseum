@@ -174,9 +174,12 @@ p {
   .blue_flexbox {
     display: grid;
   }
-  .volunteer_img,
-  .support_img,
-  .internship_img {
-    height: 125vh;
+  .biology_img,
+  .cosmology_img,
+  .ecology_img,
+  .evolution_img,
+  .medicine_img,
+  .robotics_img {
+    height: 140vh;
   }
 }
