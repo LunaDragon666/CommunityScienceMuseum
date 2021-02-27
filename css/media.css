@@ -124,17 +124,12 @@
     width: 100%;
     margin: 10px 0px;
   }
-  .event__date {
-    width: 300px;
-    margin: 0 25px;
-    font-size: 1.4em;
-  }
   h3.blog_titles {
     font-size: 2.5em;
     font-weight: 800;
   }
   .event-date {
-    font-size: 1.2em;
+    font-size: 0.89em;
   }
   .blogtext {
     font-size: 1.1em;
