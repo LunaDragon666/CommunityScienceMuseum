@@ -206,3 +206,19 @@ p.intro-paragraph {
     font-size: 1.4em;
   }
 }
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 78vh;
+  }
+  .cta-btn,
+  .cta-application {
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}
