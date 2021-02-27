@@ -122,3 +122,103 @@ p.intro-paragraph {
   text-transform: uppercase;
   font-weight: 800;
 }
+
+/* MEDIA QUERIES ~ GET INVOLVED */
+@media (min-width: 360px) and (max-width: 768px) {
+  .headpage {
+    height: 25vh;
+  }
+  .volunteer_flexbox,
+  .support_flexbox,
+  .internship_flexbox {
+    display: grid;
+  }
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 40vh;
+  }
+  .volunteer_img,
+  .support_img,
+  .internship_img,
+  .volunteer_content,
+  .support_content,
+  .internship_content {
+    padding: 10%;
+  }
+  h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  .paragraph-decor,
+  .paragraph-decor-white {
+    width: 15%;
+  }
+  .intro-paragraph {
+    font-size: 1.4em;
+    line-height: 1.3em;
+  }
+  p {
+    font-size: 1.1em;
+    margin-bottom: 50px;
+  }
+  .cta-btn,
+  .cta-btn:hover,
+  .cta-application,
+  .cta-application:hover {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .headpage {
+    height: 70vh;
+  }
+  .volunteer_flexbox,
+  .support_flexbox,
+  .internship_flexbox {
+    display: grid;
+  }
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 75vh;
+  }
+  .cta-btn,
+  .cta-application {
+    font-size: 1.4em;
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+  }
+  h2 {
+    font-size: 3em;
+    margin-top: 10px;
+  }
+  .intro-paragraph {
+    font-size: 1.5em;
+  }
+  p {
+    margin-bottom: 60px;
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 78vh;
+  }
+  .cta-btn,
+  .cta-application {
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}
