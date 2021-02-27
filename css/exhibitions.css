@@ -1,5 +1,5 @@
-.subheadpage {
-  background: url("images/headers/header.jpg") center bottom no-repeat;
+.headpage {
+  background: url("images/headers/subheader.jpg") center bottom no-repeat;
   background-size: cover;
   min-height: 50vh;
   position: relative;
