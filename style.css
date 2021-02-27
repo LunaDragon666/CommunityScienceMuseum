@@ -110,7 +110,7 @@ li.menusect {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: #2a1540;
+  background: #000a4a;
   display: block;
   height: 0.3em;
   position: relative;
@@ -122,7 +122,7 @@ li.menusect {
 /* Hamburger menu ~ Button */
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #2a1540;
+  background: #000a4a;
   content: "";
   display: block;
   height: 100%;
