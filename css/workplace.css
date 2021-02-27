@@ -62,6 +62,8 @@
 }
 .intro-paragraph {
   font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
 }
 p {
   font-size: 1em;
