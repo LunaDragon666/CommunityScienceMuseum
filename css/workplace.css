@@ -157,6 +157,7 @@ p.intro-paragraph {
   .intro-paragraph {
     font-size: 1.4em;
     line-height: 1.3em;
+    margin-top: 50px;
   }
   p {
     font-size: 1.1em;
