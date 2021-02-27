@@ -3,11 +3,6 @@ body,
   background: #1596ff;
 }
 
-input[type="submit"],
-label {
-  color: #ffffff;
-}
-
 /* HEADER */
 h1,
 .header_text {
@@ -32,6 +27,7 @@ input#email,
 
 /* Contact form ~ headings */
 label {
+  color: #ffffff;
   font-weight: bold;
   letter-spacing: 0.15em;
 }
@@ -104,6 +100,7 @@ textarea#message {
 
 /* Send message ~ Button */
 input[type="submit"] {
+  color: #ffffff;
   background-color: #001cd4;
   padding: 15px 30px;
   margin: 25px 0 50px 0px;
