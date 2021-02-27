@@ -126,24 +126,28 @@ p {
   border: 4px solid #ffffff;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES ~ EXHIBITIONS */
 @media (min-width: 360px) and (max-width: 768px) {
-  .volunteer_flexbox,
-  .support_flexbox,
-  .internship_flexbox {
+  .vwhite_flexbox,
+  .blue_flexbox {
     display: grid;
   }
-  .volunteer_img,
-  .support_img,
-  .internship_img {
+  .biology_img,
+  .cosmology_img,
+  .ecology_img,
+  .evolution_img,
+  .medicine_img,
+  .robotics_img {
     height: 40vh;
   }
-  .volunteer_img,
-  .support_img,
-  .internship_img,
-  .volunteer_content,
-  .support_content,
-  .internship_content {
+  .biology_img,
+  .cosmology_img,
+  .ecology_img,
+  .evolution_img,
+  .medicine_img,
+  .robotics_img,
+  .white_content,
+  .blue_content {
     padding: 10%;
   }
   h2 {
@@ -160,17 +164,11 @@ p {
   p {
     font-size: 1.1em;
   }
-  .cta-btn,
-  .cta-application {
-    padding: 15px 30px;
-    margin: 40px 100px;
-  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .volunteer_flexbox,
-  .support_flexbox,
-  .internship_flexbox {
+  .white_flexbox,
+  .blue_flexbox {
     display: grid;
   }
   .volunteer_img,
