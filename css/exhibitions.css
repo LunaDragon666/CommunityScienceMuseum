@@ -167,6 +167,9 @@ p {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .headpage {
+    min-height: 75vh;
+  }
   .white_flexbox,
   .blue_flexbox {
     display: grid;
