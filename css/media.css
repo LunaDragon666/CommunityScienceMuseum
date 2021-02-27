@@ -49,6 +49,13 @@
     width: 100%;
   }
   /* Exhibition gallery */
+  .content .content-overlay {
+    left: 19px;
+    right: 19.5px;
+  }
+  .content-details h2 {
+    line-height: 0.5em;
+  }
   .subheading {
     font-size: 1.6em;
     margin-left: -10px;
