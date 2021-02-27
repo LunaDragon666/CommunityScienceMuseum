@@ -166,7 +166,7 @@ main {
   margin: 56px 0;
 }
 .headpage {
-  background: url("images/header.jpg") center bottom no-repeat;
+  background: url("images/headers/header.jpg") center bottom no-repeat;
   background-size: cover;
   min-height: 50vh;
   position: relative;
