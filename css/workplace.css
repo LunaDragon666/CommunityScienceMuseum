@@ -4,8 +4,8 @@
 .volunteer_content,
 .support_content,
 .internship_content {
-  padding: 5%;
   text-align: left;
+  padding: 5%;
   -webkit-flex: 1;
   flex: 1;
 }
@@ -14,9 +14,9 @@
 .volunteer_flexbox,
 .support_flexbox,
 .internship_flexbox {
+  display: flex;
   width: 100%;
   margin: 0 auto;
-  display: flex;
 }
 .volunteer_flexbox {
   background: #ffffff;
@@ -97,12 +97,12 @@ p.intro-paragraph {
 /* CTA-buttons */
 .cta-btn,
 .cta-application {
+  display: block;
+  margin: 0 auto;
   border: none;
   border-radius: 15px;
   color: white;
   padding: 15px 30px;
-  margin-top: 35px;
-  margin-left: 240px;
   font-size: 1em;
   font-weight: bold;
   font-family: "montserrat", "sans-serif";
@@ -167,8 +167,6 @@ p.intro-paragraph {
   .cta-application,
   .cta-application:hover {
     width: 50%;
-    margin: 0 auto;
-    display: block;
     margin-bottom: 20px;
   }
 }
@@ -191,8 +189,6 @@ p.intro-paragraph {
   .cta-application {
     font-size: 1.4em;
     width: 25%;
-    margin: 0 auto;
-    display: block;
   }
   h2 {
     font-size: 3em;
@@ -212,11 +208,6 @@ p.intro-paragraph {
   .support_img,
   .internship_img {
     height: 78vh;
-  }
-  .cta-btn,
-  .cta-application {
-    display: block;
-    margin: 0 auto;
   }
   p {
     margin-bottom: 50px;
