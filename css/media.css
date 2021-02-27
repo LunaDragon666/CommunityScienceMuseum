@@ -43,7 +43,8 @@
   .blogtext {
     font-size: 1.1em;
   }
-  .read-btn {
+  .read-btn,
+  .read-btn:hover {
     font-size: 1.4em;
     width: 100%;
   }
