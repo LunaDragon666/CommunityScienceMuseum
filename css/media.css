@@ -73,8 +73,8 @@
   }
   /* Exhibition gallery */
   .content .content-overlay {
-    left: 16px;
-    right: 16.5px;
+    left: 0;
+    right: 0;
   }
   .content-details h2 {
     line-height: 0.5em;
