@@ -88,6 +88,9 @@
     letter-spacing: 0.1em;
     margin: 10px -25px;
   }
+  p.content-text {
+    font-size: 1em;
+  }
   /* Footer */
   footer {
     grid-template-columns: 1fr;
