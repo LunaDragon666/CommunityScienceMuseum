@@ -12,10 +12,8 @@ h1 {
 
 .volunteer_img,
 .support_img,
-.internship_img,
 .volunteer_content,
-.support_content,
-.internship_content {
+.support_content {
   padding: 5%;
   text-align: left;
   -webkit-flex: 1;
@@ -24,8 +22,7 @@ h1 {
 
 /* FLEXBOXES OVERALL ~ GET INVOLVED SUBPAGE */
 .volunteer_flexbox,
-.support_flexbox,
-.internship_flexbox {
+.support_flexbox {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -34,16 +31,12 @@ h1 {
   background: #ffffff;
 }
 .support_flexbox {
-  background: #91cfff;
-}
-.internship_flexbox {
   background: #005fff;
 }
 
 /* Flexboxes ~ images */
 .volunteer_img,
-.support_img,
-.internship_img {
+.support_img {
   height: 67vh;
   position: relative;
   display: flex;
@@ -59,17 +52,12 @@ h1 {
   background: url("../images/support.jpg") center bottom no-repeat;
   background-size: cover;
 }
-.internship_img {
-  background: url("../images/scientists.jpg") center bottom no-repeat;
-  background-size: cover;
-}
 
 /* Flexboxes ~ content page */
-.volunteer_content,
-.support_content {
+.volunteer_content {
   color: #001cd4;
 }
-.internship_content {
+.support_content {
   color: #ffffff;
 }
 .intro-paragraph {
