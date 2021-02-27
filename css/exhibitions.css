@@ -141,7 +141,7 @@ p {
   .evolution_img,
   .medicine_img,
   .robotics_img {
-    height: 50vh;
+    height: 40vh;
   }
   .biology_img,
   .cosmology_img,
@@ -185,6 +185,19 @@ p {
   .robotics_img,
   .white_content,
   .blue_content {
-    height: 125vh;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .biology_img,
+  .cosmology_img,
+  .ecology_img,
+  .evolution_img,
+  .medicine_img,
+  .robotics_img,
+  .white_content,
+  .blue_content {
+    height: 60vh;
   }
 }
