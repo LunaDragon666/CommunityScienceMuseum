@@ -7,6 +7,7 @@ h1 {
 .headpage {
   background: url("../images/headers/subheader.jpg") center bottom no-repeat;
   background-size: cover;
+  min-height: 65vh;
 }
 
 .volunteer_img,
