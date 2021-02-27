@@ -1,15 +1,12 @@
 main {
-  margin: 56px 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
 }
 .headpage {
   background: url("../images/headers/subheader.jpg") center bottom no-repeat;
   background-size: cover;
-  min-height: 50vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
 }
 
 .volunteer_img,
