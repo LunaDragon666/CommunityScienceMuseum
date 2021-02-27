@@ -57,6 +57,7 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
 /* Contact form ~ Flexbox */
 .left {
   width: 50%;
@@ -67,6 +68,7 @@ textarea {
   width: 47%;
   float: left;
 }
+
 /* Selectbox costum ~ arrow */
 .custom {
   overflow: hidden;
@@ -87,6 +89,7 @@ textarea {
     center no-repeat;
   pointer-events: none;
 }
+
 /* Message field */
 textarea#message {
   min-height: 200px;
