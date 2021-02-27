@@ -1,0 +1,10 @@
+.subheadpage {
+  background: url("images/headers/header.jpg") center bottom no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
