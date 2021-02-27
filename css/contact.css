@@ -3,6 +3,11 @@ body,
   background: #1596ff;
 }
 
+input[type="submit"],
+label {
+  color: #ffffff;
+}
+
 /* HEADER */
 h1,
 .header_text {
@@ -27,7 +32,6 @@ input#email,
 
 /* Contact form ~ headings */
 label {
-  color: white;
   font-weight: bold;
   letter-spacing: 0.15em;
 }
@@ -42,7 +46,7 @@ select,
 textarea,
 input[type="submit"] {
   font-family: "Montserrat", "sans-serif";
-  color: #2a1540;
+  color: #000a4a;
   letter-spacing: 0.15em;
 }
 input[type="text"],
@@ -101,7 +105,6 @@ textarea#message {
 /* Send message ~ Button */
 input[type="submit"] {
   background-color: #001cd4;
-  color: white;
   padding: 15px 30px;
   margin: 25px 0 50px 0px;
   border: none;
@@ -114,7 +117,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #ffffff;
   color: #001cd4;
-  border: 3px solid #001cd4;
+  border: 3.5px solid #001cd4;
   letter-spacing: 0.5em;
 }
 
@@ -175,5 +178,16 @@ input[type="submit"]:hover {
   }
   input[type="submit"] {
     margin-top: 10px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .contact-container {
+    padding: 40px;
+    margin-top: -95px;
+  }
+  input[type="submit"] {
+    margin-bottom: 150px;
+    margin-top: 0;
   }
 }
