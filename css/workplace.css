@@ -189,10 +189,11 @@ p.intro-paragraph {
   }
   .cta-btn,
   .cta-application {
+    font-size: 1.4em;
     width: 25%;
     margin: 0 auto;
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
   h2 {
     font-size: 3em;
