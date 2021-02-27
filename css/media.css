@@ -79,6 +79,9 @@
   .content-details h2 {
     line-height: 0.5em;
   }
+  .content-image {
+    width: 100%;
+  }
   /* Footer */
   footer {
     grid-template-columns: 1fr;
