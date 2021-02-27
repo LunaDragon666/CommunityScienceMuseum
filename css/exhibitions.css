@@ -128,7 +128,10 @@ p {
 
 /* MEDIA QUERIES ~ EXHIBITIONS */
 @media (min-width: 360px) and (max-width: 768px) {
-  .vwhite_flexbox,
+  .headpage {
+    height: 25vh;
+  }
+  .white_flexbox,
   .blue_flexbox {
     display: grid;
   }
@@ -179,7 +182,9 @@ p {
   .ecology_img,
   .evolution_img,
   .medicine_img,
-  .robotics_img {
-    height: 150vh;
+  .robotics_img,
+  .white_content,
+  .blue_content {
+    height: 125vh;
   }
 }
