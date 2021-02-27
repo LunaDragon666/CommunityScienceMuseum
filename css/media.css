@@ -82,6 +82,12 @@
   .content-image {
     width: 100%;
   }
+  h3.content-title {
+    font-size: 2em;
+    color: white;
+    letter-spacing: 0.1em;
+    margin: 10px -25px;
+  }
   /* Footer */
   footer {
     grid-template-columns: 1fr;
