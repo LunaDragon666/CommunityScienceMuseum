@@ -5,6 +5,29 @@
   .header .menu-icon {
     padding: 25px 25px;
   }
+  .subheading {
+    font-size: 1.7em;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+  .header_link {
+    position: absolute;
+    font-size: 1.2em;
+    margin: -20px 70px;
+    white-space: nowrap;
+  }
+  .subhead-dec {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  i.fas.fa-images,
+  i.fas.fa-calendar-alt .exhibitpage {
+    margin: 0 10px 0 -10px;
+  }
+  .gallery-page {
+    grid-template-columns: auto;
+  }
   .grid {
     grid-template-columns: 1fr;
     margin: 0px 30px;
@@ -50,34 +73,11 @@
   }
   /* Exhibition gallery */
   .content .content-overlay {
-    left: 19px;
-    right: 19.5px;
+    left: 16px;
+    right: 16.5px;
   }
   .content-details h2 {
     line-height: 0.5em;
-  }
-  .subheading {
-    font-size: 1.7em;
-    margin-left: -10px;
-    margin-top: 5px;
-  }
-  .header_link {
-    position: absolute;
-    font-size: 1.2em;
-    margin: -20px 70px;
-    white-space: nowrap;
-  }
-  .subhead-dec {
-    width: 90%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  i.fas.fa-images,
-  i.fas.fa-calendar-alt .exhibitpage {
-    margin: 0 10px 0 -10px;
-  }
-  .gallery-page {
-    grid-template-columns: auto;
   }
   /* Footer */
   footer {
