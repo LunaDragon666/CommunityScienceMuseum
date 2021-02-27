@@ -114,6 +114,9 @@
     padding: 35px 35px;
   }
   /* Blogpage section */
+  .event-date {
+    font-size: 0.7em;
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -127,9 +130,6 @@
   h3.blog_titles {
     font-size: 2.5em;
     font-weight: 800;
-  }
-  .event-date {
-    font-size: 0.1em;
   }
   .blogtext {
     font-size: 1.1em;
