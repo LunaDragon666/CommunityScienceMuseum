@@ -184,7 +184,7 @@ p {
   .robotics_img,
   .white_content,
   .blue_content {
-    height: 80vh;
+    height: 150vh;
   }
 }
 @media (min-width: 1025px) and (max-width: 1600px) {
