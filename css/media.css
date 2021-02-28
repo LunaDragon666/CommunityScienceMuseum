@@ -95,8 +95,7 @@
   }
   /* Footer */
   footer {
-    grid-template-columns: 1fr;
-    height: 1200px;
+    height: 275px;
   }
 }
 
@@ -178,5 +177,22 @@
     color: white;
     letter-spacing: 0.1em;
     margin: 10px -25px;
+  }
+}
+
+/* FROM LAPTOPS TO DESKTOPS */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .headpage {
+    min-height: 60vh;
+  }
+  .content .content-overlay {
+    left: 25px;
+    right: 25px;
+  }
+  .read-btn {
+    width: 70%;
+  }
+  footer {
+    height: 260px;
   }
 }
