@@ -268,7 +268,7 @@ h3.blog_titles {
   line-height: 1.7;
   word-spacing: 2px;
   margin-top: 35px;
-  color: #2a1540;
+  color: #000a4a;
 }
 .event-date {
   font-size: 1em;
@@ -276,7 +276,7 @@ h3.blog_titles {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   margin-bottom: 27px;
-  color: #2a1540;
+  color: #000a4a;
 }
 
 /* CTA-button for blog section */
